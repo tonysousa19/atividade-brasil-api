@@ -2,7 +2,7 @@
 
 Este é um aplicativo mobile desenvolvido em **Flutter** que permite consultar a disponibilidade e informações detalhadas de domínios com final `.br`. O app consome os dados em tempo real através da **BrasilAPI**.
 
-##Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - **Flutter**: Framework UI.
 - **Dart**: Linguagem de programação.
 - **Dio**: Cliente HTTP para requisições à API.
