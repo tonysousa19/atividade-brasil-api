@@ -1,4 +1,4 @@
-# Consulta Registro.br - BrasilAPI 🌐
+# Consulta Registro.br - BrasilAPI 
 
 Este é um aplicativo mobile desenvolvido em **Flutter** que permite consultar a disponibilidade e informações detalhadas de domínios com final `.br`. O app consome os dados em tempo real através da **BrasilAPI**.
 
