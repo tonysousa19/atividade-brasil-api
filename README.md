@@ -1,17 +1,37 @@
-# consultaapi
+# Consulta Registro.br - BrasilAPI 🌐
 
-A new Flutter project.
+Este é um aplicativo mobile desenvolvido em **Flutter** que permite consultar a disponibilidade e informações detalhadas de domínios com final `.br`. O app consome os dados em tempo real através da **BrasilAPI**.
 
-## Getting Started
+##Tecnologias Utilizadas
+- **Flutter**: Framework UI.
+- **Dart**: Linguagem de programação.
+- **Dio**: Cliente HTTP para requisições à API.
+- **Provider**: Gerenciamento de estado (State Management).
+- **MVVM (Model-View-ViewModel)**: Padrão de arquitetura para separação de responsabilidades.
 
-This project is a starting point for a Flutter application.
+## Arquitetura do Projeto
+O código está organizado seguindo o padrão MVVM para garantir escalabilidade e facilidade de manutenção:
 
-A few resources to get you started if this is your first Flutter project:
+- **Model**: Representação dos dados (DomainModel).
+- **View**: Interface do usuário (Widgets e Telas).
+- **ViewModel**: Lógica de negócio e ponte entre a View e o Serviço.
+- **Service**: Camada de infraestrutura que lida com as requisições HTTP (Dio).
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Funcionalidades
+-  Busca de domínios `.br`.
+-  Interpretação automática de códigos de status (0 a 10).
+-  Exibição de data de expiração e servidores DNS (Hosts).
+-  Sugestão de domínios alternativos quando disponíveis.
+-  Tratamento de erros para domínios inválidos ou falhas de conexão.
+-  Indicador visual de carregamento.
+-  Diferenciação visual por cores conforme o status do domínio.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Como Executar o Projeto
+
+1. **Pré-requisitos:**
+   - Ter o Flutter SDK instalado (versão estável).
+   - Um emulador Android/iOS ou dispositivo físico conectado.
+
+2. **Clonar o repositório:**
+   ```bash
+   git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
